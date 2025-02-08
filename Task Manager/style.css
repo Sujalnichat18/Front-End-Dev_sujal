@@ -1,0 +1,15 @@
+#ulTasks li.done {
+    color: #6c757d;
+    text-decoration: line-through;
+  }
+
+  body {
+    background: linear-gradient(to right, #CCFBFF, #EF96C5);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: poppins;
+}
+
+/* code provided by sujalnichat18 */
