@@ -30,8 +30,5 @@
 4. Click the "Convert" button to get the conversion result.  
 5. Use the "Reset" button to clear inputs.  
 
-## API Information  
-The app fetches exchange rates from `https://api.exchangerate-api.com/v4/latest/{currency}`. Ensure that the API key is valid before use.  
-
 ## Credits  
 - **Developer:** [Sujal Nichat](https://www.linkedin.com/in/sujal-nichat-1811sn/)  
