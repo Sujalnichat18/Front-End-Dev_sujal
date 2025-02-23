@@ -1,4 +1,4 @@
-#Calculator By SN 
+# Calculator By SN 
 
 A stylish and interactive calculator built with HTML, CSS, and JavaScript. This calculator features a modern UI with a glassmorphism effect and includes full keyboard support.  
 
