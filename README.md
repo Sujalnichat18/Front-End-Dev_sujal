@@ -6,24 +6,10 @@ This project is a front-end web application designed to [brief description of th
 
 ## Table of Contents
 
-- [Features](#features)
-- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
-## Features
-
-- [Feature 1]: [Brief description]
-- [Feature 2]: [Brief description]
-- [Feature 3]: [Brief description]
-
-## Demo
-
-![Project Screenshot](path/to/screenshot.png)
-
-[Live Demo](https://your-live-demo-link.com)
 
 ## Installation
 
