@@ -1,7 +1,3 @@
-Here’s a README file for your responsive fancy calculator project:  
-
----
-
 # Responsive Fancy Calculator  
 
 A stylish and interactive calculator built with HTML, CSS, and JavaScript. This calculator features a modern UI with a glassmorphism effect and includes full keyboard support.  
@@ -46,7 +42,3 @@ A stylish and interactive calculator built with HTML, CSS, and JavaScript. This 
 
 ## 👨‍💻 Author  
 Made with ❤️ by [@sujalnichat18](https://www.linkedin.com/in/sujal-nichat-1811sn/)  
-
----
-
-Let me know if you want any modifications! 🚀
