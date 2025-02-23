@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Convert</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="currency.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="currency.js" defer></script>
+</head>
+<body>
+
+    <header class="bg-success text-white text-center py-3">
+        <h1>Welcome to Quick Convert</h1>
+    </header>
+
+    <div class="container p-4 bg-white rounded shadow">
+        <h2 class="text-center">Currency Converter</h2>
+        <div class="mb-3">
+            <input type="number" id="amount" class="form-control" placeholder="Enter amount" />
+        </div>
+        <div class="mb-3">
+            <select id="fromCurrency" class="form-select"></select>
+        </div>
+        <div class="mb-3">
+            <select id="toCurrency" class="form-select"></select>
+        </div>
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary" onclick="convertCurrency()">Convert</button>
+            <button class="btn btn-secondary" onclick="resetForm()">Reset</button>
+        </div>
+        <h3 id="result" class="text-center mt-4"></h3>
+    </div>
+
+    <footer class="bg-light text-center py-3 mt-auto">
+        <p>&copy; 2025 Quick Convert. Made By @<a href="https://www.linkedin.com/in/sujal-nichat-1811sn/" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">sujalnichat18</a></p>
+    </footer>
+
+</body>
+</html>
