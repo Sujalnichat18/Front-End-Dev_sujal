@@ -1,0 +1,160 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bmi {
+  max-width: 400px;
+  margin: 40px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  padding-right: 40px !important;
+}
+
+.bmi h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.bmi .text {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.bmi input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #222f3e;
+  font-size: 20px;
+  font-weight: 200;
+  outline: none;
+}
+
+.bmi input:focus {
+  width: 100%;
+  transition: 0.5s;
+}
+
+/*this is my code sujalnichat!8 */
+
+.bmi button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: inherit;
+  margin-top: 10px;
+  outline: none;
+  transition: 0.5s;
+  margin-left: 10px;
+}
+
+.bmi button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+.chart {
+  max-width: 600px;
+  margin: 20px;
+  margin-left: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.chart table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.chart th, .chart td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.footer__title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.footer__social {
+  margin-bottom: 10px;
+}
+
+.footer__icon {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.footer__icon:hover {
+  color: #ff0400;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+ 
+  .bmi, .chart {
+    width: 85%;
+    margin: 10px auto;
+  }
+
+  .bmi input, .bmi button {
+    font-size: 1em;
+  }
+
+  .chart th, .chart td {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+  }
+
+  .bmi, .chart {
+    width: 60%;
+    margin: 5px auto;
+  }
+
+  .bmi input, .bmi button {
+    font-size: 0.9em;
+  }
+
+  .chart th, .chart td {
+    font-size: 0.8em;
+  }
+}
+
